@@ -152,13 +152,31 @@ A dedicated QA script validates:
 
 ## Tableau Dashboard
 
-A one-page dashboard is built to analyze cross-channel marketing performance.
+A one-page interactive dashboard was built to analyze cross-channel marketing performance.
 
-It includes:
+### Key Features
 
 - KPI summary (Spend, Clicks, Conversions, CTR, CPA)
-- platform comparison
-- time-series performance trends
-- top-performing campaigns
+- Spend distribution by platform
+- Efficiency comparison (CPA by platform)
+- Daily performance trend
+- Top campaigns by spend
+- Interactive filtering by platform
 
----
+### Key Insight
+
+- TikTok has the highest spend but also the highest CPA, indicating lower efficiency compared to other platforms.
+
+### Tools Used
+
+- Tableau Public
+- PostgreSQL (Supabase)
+- SQL + Python (data preparation)
+
+## Dashboard Preview
+
+![Dashboard](tableau/dashboard.png)
+
+### Live Dashboard
+
+[View on Tableau Public](https://public.tableau.com/app/profile/yilin.yang1612/viz/ads_performance_reporting/MarketingPerformanceDashboard)
