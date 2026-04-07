@@ -64,6 +64,7 @@ marketing-analyst-assignment-improvado/
 │
 └── tableau/
     └── dashboard_notes.md
+    └── dashboard.png
 ```
 
 ## Data Modeling Approach
