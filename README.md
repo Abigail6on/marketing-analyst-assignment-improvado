@@ -43,10 +43,13 @@ marketing-analyst-assignment-improvado/
 ├── .gitignore
 │
 ├── data/
-│   └── raw/
-│       ├── 01_facebook_ads.csv
-│       ├── 02_google_ads.csv
-│       └── 03_tiktok_ads.csv
+│   ├── raw/
+│   │   ├── 01_facebook_ads.csv
+│   │   ├── 02_google_ads.csv
+│   │   └── 03_tiktok_ads.csv
+│   │
+│   └── processed/
+│       └── ads_performance_reporting.csv
 │
 ├── scripts/
 │   └── inspect_source_data.py
@@ -63,7 +66,7 @@ marketing-analyst-assignment-improvado/
 │   └── assignment_notes.md
 │
 └── tableau/
-    └── dashboard_notes.md
+    ├── dashboard_notes.md
     └── dashboard.png
 ```
 
